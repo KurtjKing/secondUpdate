@@ -1,0 +1,59 @@
+body{
+    background-color: wheat;
+}
+
+.title{
+    font-family:Roboto Mono;
+    color:white;
+}
+
+.jumbotron{
+    background-color: wheat;
+}
+
+.container h1{
+    font-size:30px;
+}    
+
+.opencont:hover{
+    transform:scale(1.2);
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.form-group li{
+    color:white;
+}
+
+.btn-primary{
+    
+    border-radius: 20px;
+    margin:0 auto;
+    box-shadow: 0 6px #0000FF;
+    font-size:14px;
+    text-transform: uppercase;
+    outline:none;
+    border:none;
+    position: relative;
+    letter-spacing: 2px;
+}
+
+.btn-primary:hover{
+    color:#FFD700;
+    box-shadow: 0 4px #0000FF;
+	top: 2px;
+}
+.btn-primary:active{
+    
+        box-shadow: 0 0 #0000FF;
+        top: 6px;
+}    
+
+@media(max-width:769px) {
+        .opencont:hover{
+        transform:none;
+        transition-delay:0s;
+        transition-timing-function:unset;
+    }
+}
+
